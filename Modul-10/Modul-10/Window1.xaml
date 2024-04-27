@@ -1,0 +1,28 @@
+﻿<Window x:Class="Modul_10.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Modul_10"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800">
+    <Grid>
+        <Button Content="Изменить" HorizontalAlignment="Left" Margin="92,310,0,0" VerticalAlignment="Top" Width="74" Background="#FFBDBDBD" Click="Button_Click"/>
+        <Label Content="Фамилия" HorizontalAlignment="Left" Margin="53,58,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtFName" HorizontalAlignment="Left" Height="23" Margin="128,58,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Имя" HorizontalAlignment="Left" Margin="53,89,0,0" VerticalAlignment="Top"/>
+        <Label Content="Отчество" HorizontalAlignment="Left" Margin="53,120,0,0" VerticalAlignment="Top"/>
+        <Label Content="Почта" HorizontalAlignment="Left" Margin="53,151,0,0" VerticalAlignment="Top"/>
+        <Label Content="Работа" HorizontalAlignment="Left" Margin="53,182,0,0" VerticalAlignment="Top"/>
+        <Label Content="Логин" HorizontalAlignment="Left" Margin="53,213,0,0" VerticalAlignment="Top"/>
+        <Label Content="Пароль" HorizontalAlignment="Left" Margin="53,244,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtName" HorizontalAlignment="Left" Height="23" Margin="128,89,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtOtchestvo" HorizontalAlignment="Left" Height="23" Margin="128,120,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Height="23" Margin="128,151,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtJob" HorizontalAlignment="Left" Height="23" Margin="128,185,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtLogin" HorizontalAlignment="Left" Height="23" Margin="128,216,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtPassword" HorizontalAlignment="Left" Height="23" Margin="128,247,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="exit" Content="Выход" HorizontalAlignment="Left" Margin="650,58,0,0" VerticalAlignment="Top" Width="75" Click="exit_Click"/>
+
+    </Grid>
+</Window>
